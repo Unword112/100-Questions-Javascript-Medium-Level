@@ -1,6 +1,6 @@
 const StringToInteger = (number) => {
     let trim = number.replace(/[a-zA-Z]/g, '');
-    let arr = number.split('');
+    let arr = number.split('').join('');
     let str = parseInt(trim);
     let letters = /[a-z.+]/i;
 
