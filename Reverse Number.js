@@ -10,7 +10,6 @@ const reverse = (number) => {
     if(rev < (Math.pow(2,31) * -1) || rev > (Math.pow(2,31) - 1)) {
         return 0;
     }
-    
     return rev;
 }
 
