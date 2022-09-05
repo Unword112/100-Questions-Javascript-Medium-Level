@@ -1,4 +1,4 @@
-var sortedSquares = function(nums) {
+var sortedSquares = (nums) => {
     if(nums === null || nums.length === 0) return false;
     
     var arr = [];
